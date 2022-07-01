@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: auto;
+}
+.d2 img{
+    width: 450px;
+    height: auto;
+    flex: 1;
+}
+.ch2 img{
+    width: 250px;
+}
+
+.d1{
+    padding-top: 50px;
+    flex: 1;
+}
+.contain{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    
+}
+.ch1 h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding: 30px;
+}
+.d1 h2{
+    font-family: "Open Sans",;
+    font-weight: 700;
+}
+.free{
+    float: right;
+    border-radius: 5px;
+    padding-right: 20px;
+}
+.box2{
+    
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+p{
+    text-align: left;
+    padding: 30px;
+}
+
+header{
+    background-color:hsl(193, 100%, 96%) ;
+    background-image: url("images/bg-hero-desktop.svg");
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+}
+.container{
+    width: 90%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+ .parent{
+    
+    padding: 30px;
+   display: flex;
+   border-radius: 8px;
+   border: 2px solid silver;
+   margin: 10px;
+   
+ }
+ .pk{
+    border-radius: 15px;
+    background-color: hsl(322, 100%, 66%);
+ }
+ .trans{
+    width: 60%;
+    background-color: aliceblue;
+    border: 2px solid azure;
+    margin: 0;
+    border-radius: 10%;
+    padding: 50px;
+    overflow-y: 20px;
+    justify-content: space-around;
+
+ }
+ .foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: nowrap;
+    color: white;
+ }
+ .sc{
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+ }
+ @media screen and (min-width:375px) {
+    header{
+        background-image: url(images/bg-hero-mobile.svg);
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        display: block;
+    }
+ }
+    
+ 
